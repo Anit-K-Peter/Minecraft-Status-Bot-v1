@@ -21,8 +21,6 @@ Here's the updated version with center-aligned headings:
 
 View server status at a glance!
 
-![status](./examples/status-channels.png)
-
 ### Stats Command
 
 Get detailed server info with the `!stats` command.
