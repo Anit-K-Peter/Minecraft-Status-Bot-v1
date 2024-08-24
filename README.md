@@ -1,43 +1,67 @@
+Here's the updated version with center-aligned headings:
+
+---
+
+<div align="center">
+
 # Minecraft Discord Bot
 
-Minecraft Discord Bot is a bot made for Minecraft servers that want to offer a great experience to users on their Discord. Indeed, users will see if your server is online, how many players are currently connected, all in real time!
+🎮 **Minecraft Discord Bot** enhances your Minecraft server's Discord experience by displaying real-time server status and player counts!
+
+</div>
 
 ## ✨ Features
 
-* Players voice channel edited every 10 minutes that shows how many players are currently connected on your server.
-* Status voice channel edited every 10 minutes that shows if your server is online.
-* `!force-update` command to force the update of the voice channels.
-* `!stats` command to show informations about your server (such as the server version, the maximum players, etc...)
+- **Voice Channels**: Automatically updated every 10 minutes to show player counts and server status.
+- **Commands**:
+  - `!force-update`: Manually refreshes the voice channels.
+  - `!stats`: Shows server info like version and max players.
 
-#### Status Channels
+### Status Channels
 
-Users will see at a glance if your server is online!
+View server status at a glance!
 
 ![status](./examples/status-channels.png)
 
-#### Stats Command
+### Stats Command
 
-Users can also request more information using the `stats` command, for example to get the required Minecraft version.
+Get detailed server info with the `!stats` command.
 
-![stats](./examples/stats-command.png)
+<div align="center">
 
 ## 🛠️ Installation
 
-* **Clone** the repository (`git clone https://github.com/Androz2091/minecraft-discord-bot`) or **download** it.
-* Install Node.js and NPM if they are not installed.
-* Open your terminal and run `npm install` to install all the dependencies.
-* [Fill the config file](#fill-the-config-file).
-* Run `node .`
-* You're done!
-  
-#### Fill the config file
+1. **Clone** or **download** the repository.
+   ```bash
+   git clone https://github.com/Androz2091/minecraft-discord-bot
+   ```
+2. Install Node.js and NPM.
+3. Run `npm install` to get dependencies.
+4. Start the bot with `node .`
 
-You will have to fill the `config.json` file to make the bot working (rename the `config.sample.json` file to `config.json`). Here are some informations about the config file fields:
+## Configure the Bot
 
-* `token` Your Discord bot token.
-* `ipAddress`: The IP address of the server you want to track statistics. For example, can be `mc.hypixel.net` for Hypixel.
-* `port`: The port of your minecraft server (optional, you can delete the field).
-* `playersChannel`: The Discord ID of the voice channel that will show the number of players connected to your server.
-* `statusChannel`: The Discord ID of the voice channel that will show the status of your server.
-* `updateInterval`: The interval for the voice channel update. **Due to a recent update of Discord, the interval must be greater than 10 minutes**
-* `prefix`: the prefix of the bot for text commands.
+1. Rename `config.sample.json` to `config.json`.
+2. Fill in the following fields:
+   - `token`: Your Discord bot token.
+   - `ipAddress`: Minecraft server IP (e.g., `mc.hypixel.net`).
+   - `port`: Minecraft server port (optional).
+   - `playersChannel`: Discord ID for the player count voice channel.
+   - `statusChannel`: Discord ID for the server status voice channel.
+   - `updateInterval`: Interval for updating voice channels (must be >10 minutes).
+   - `prefix`: Prefix for bot commands.
+
+## 📜 Credits
+
+✨ If you use this bot, please credit me!
+> Example: `**Bot originally by [sebastian_allepay](https://discord.com/users/891002113134563428), modified and updated by [Your Name](https://discord.com/users/userid)**`
+
+## 🤝 Contributing
+
+🔧 Want to help improve the bot? Feel free to create PULL REQUESTS to fix bugs, design issues, or other errors. Note that [**Sebastian**](https://discord.com/users/891002113134563428) is the main developer, and other contributors have provided occasional or one-time help.
+
+## Thanks For Downloading! 🎉
+
+</div>
+
+---
