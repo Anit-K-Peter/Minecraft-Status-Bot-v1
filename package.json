@@ -10,19 +10,11 @@
     "test": "node index.js",
     "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Androz2091/minecraft-discord-bot.git"
-  },
   "keywords": [
     "minecraft",
     "bot"
   ],
-  "author": "Androz2091",
-  "bugs": {
-    "url": "https://github.com/Androz2091/minecraft-discord-bot/issues"
-  },
-  "homepage": "https://github.com/Androz2091/minecraft-discord-bot#readme",
+  "homepage": "https://github.com/1/minecraft-discord-bot#readme",
   "dependencies": {
     "discord.js": "^12.2.0",
     "ms": "^2.1.2",
